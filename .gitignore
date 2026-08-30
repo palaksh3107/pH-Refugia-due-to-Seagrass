@@ -1,9 +1,51 @@
-﻿# Raw large datasets
-data/glodap/GLODAPv2.2023_Atlantic_Ocean.csv
-data/socat/SOCATv2023_qrtrdeg_gridded_coast_monthly.csv
-data/cmems/*.nc
-
-# Temporary files
-data/misc/tempCodeRunnerFile.py
+# ================================
+# Python
+# ================================
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# ================================
+# Temporary / local files
+# ================================
+*.tmp
+*.bak
+*.log
+*.aux
+*.swp
+tempCodeRunnerFile.py
+
+# ================================
+# Jupyter
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# IDE / OS files
+# ================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ================================
+# Secrets
+# ================================
+.env
+.env.*
+!.env.example
+
+# ================================
+# Large raw datasets
+# ================================
+data/raw/glodap/GLODAPv2.2023_Atlantic_Ocean.csv
+data/raw/socat/SOCATv2023_qrtrdeg_gridded_coast_monthly.csv
+data/raw/cmems/*.nc
+
+# CMEMS auxiliary files
+data/raw/cmems/*.nc.aux.xml
+
+# ================================
+# Local AI / Claude files
+# ================================
+.claude/
