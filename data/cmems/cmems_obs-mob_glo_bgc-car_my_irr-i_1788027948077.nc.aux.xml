@@ -1,0 +1,628 @@
+<PAMDataset>
+  <Subdataset name="talk">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="latitude#axis">Y</MDI>
+        <MDI key="latitude#long_name">Latitude</MDI>
+        <MDI key="latitude#standard_name">latitude</MDI>
+        <MDI key="latitude#units">degrees_north</MDI>
+        <MDI key="latitude#unit_long">Degrees North</MDI>
+        <MDI key="longitude#axis">X</MDI>
+        <MDI key="longitude#long_name">Longitude</MDI>
+        <MDI key="longitude#standard_name">longitude</MDI>
+        <MDI key="longitude#units">degrees_east</MDI>
+        <MDI key="longitude#unit_long">Degrees East</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.11</MDI>
+        <MDI key="NC_GLOBAL#institution">CEA/LSCE</MDI>
+        <MDI key="NC_GLOBAL#references">Chau, T.-T.-T., Chevallier, F., &amp; Gehlen, M. (2024). Global analysis of surface ocean CO2 fugacity and air-sea fluxes with low latency. Geophysical Research Letters, 51, e2023GL106670. https://doi.org/10.1029/2023GL106670
+ Chau, T.-T.-T., Gehlen, M., Metzl, N., and Chevallier, F.: CMEMS-LSCE: a global, 0.25°, monthly reconstruction of the surface ocean carbonate system, Earth Syst. Sci. Data, 16, 121–160, https://doi.org/10.5194/essd-16-121-2024, 2024.</MDI>
+        <MDI key="NC_GLOBAL#subset">datasetId=cmems_obs-mob_glo_bgc-car_my_irr-i_202603</MDI>
+        <MDI key="NC_GLOBAL#subset">date=2026-08-29T18:25:48.078Z</MDI>
+        <MDI key="NC_GLOBAL#subset">productId=MULTIOBS_GLO_BGC_CARBON_SURFACE_MYNRT_015_008</MDI>
+        <MDI key="NC_GLOBAL#subset">source=ARCO data downloaded from the Marine Data Store using the MyOcean Data Portal</MDI>
+        <MDI key="NC_GLOBAL#title">Surface ocean carbon fields</MDI>
+        <MDI key="NETCDF_DIM_EXTRA">{time}</MDI>
+        <MDI key="NETCDF_DIM_time_DEF">{13,6}</MDI>
+        <MDI key="NETCDF_DIM_time_VALUES">{1546300800,1548979200,1551398400,1554076800,1556668800,1559347200,1561939200,1564617600,1567296000,1569888000,1572566400,1575158400,1577836800}</MDI>
+        <MDI key="talk#long_name">Total alkalinity in surface seawater</MDI>
+        <MDI key="talk#standard_name">total_alkalinity_in_sea_water</MDI>
+        <MDI key="talk#units">micro mol kg-1</MDI>
+        <MDI key="talk#_FillValue">nan</MDI>
+        <MDI key="time#axis">T</MDI>
+        <MDI key="time#calendar">gregorian</MDI>
+        <MDI key="time#long_name">Time</MDI>
+        <MDI key="time#standard_name">time</MDI>
+        <MDI key="time#units">seconds since 1970-01-01 00:00:00</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Histograms>
+          <HistItem>
+            <HistMin>2339.000457000732</HistMin>
+            <HistMax>2399.860138702393</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|1|0|1|0|0|1|0|0|0|0|0|0|1|0|2|2|0|1|0|1|0|0|1|0|1|1|2|0|0|3|2|2|0|0|0|1|0|0|0|1|1|1|0|0|0|2|0|0|0|1|2|3|1|0|0|3|0|0|2|3|0|1|1|0|0|0|1|0|1|0|1|1|0|0|0|2|1|0|1|1|1|1|1|2|1|1|1|0|2|0|1|1|0|2|0|0|1|0|1|0|1|0|2|1|1|2|0|0|1|0|2|2|2|2|0|2|0|1|1|2|2|1|2|1|0|1|1|3|1|1|1|1|5|0|1|1|0|1|3|0|4|0|2|0|3|1|0|2|0|1|0|1|1|0|0|3|0|1|2|3|0|2|1|0|3|3|0|0|4|1|2|3|0|0|3|0|0|1|2|1|2|1|1|1|1|1|3|2|2|1|0|0|0|1|0|0|0|1|1|0|0|0|4|0|0|0|1|0|0|0|0|1|2|0|0|2|1|0|3|1|0|0|2|0|2|0|0|0|1|2|2|1|4|1|1|1|0|1|0|2|1|1|0|1|0|2|0|2|2|2|0|0|1|4|1|1|0|0|0|1|0|1|2|1|0|0|0|0|0|0|1|1|2|0|0|0|1|2|0|0|2|2|0|0|3|2|2|0|1|0|0|2|0|0|1|1|1|1|0|1|1|2|2|0|3|1|0|1|1|0|1|0|2|2|0|0|1|2|3|1|1|0|0|0|0|0|3|1|2|0|0|0|0|1|0|0|3|0|0|1|4|1|0|0|0|1|0|2|0|1|1|0|1|0|1|0|0|0|0|3|2|1|2|0|1|2|0|0|1|0|1|1|0|0|2|0|3|1|1|1|0|0|1|0|2|0|0|1|3|1|1|0|0|0|2|0|0|0|1|0|2|2|3|0|0|1|2|3|0|0|0|1|2|3|3|4|0|1|2|3|3|0|2|1|4|8|2|1|2|1|0|0|1|2|0|1|0|0|1|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2339.0637207031</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2399.796875</MDI>
+          <MDI key="STATISTICS_MEAN">2373.1165485291</MDI>
+          <MDI key="STATISTICS_STDDEV">16.283054655293</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="2">
+        <Histograms>
+          <HistItem>
+            <HistMin>2345.032903544108</HistMin>
+            <HistMax>2401.688287862142</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|0|0|0|0|0|1|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|1|1|0|0|2|0|0|0|0|0|0|0|0|1|1|1|0|0|1|0|0|0|0|0|0|0|0|0|0|2|0|1|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|1|1|0|0|3|0|0|1|0|1|1|0|0|0|0|0|0|1|0|2|1|1|0|0|0|0|0|2|1|0|2|0|1|2|0|1|0|1|1|0|1|1|0|0|0|0|1|0|1|2|0|1|1|0|0|1|2|0|1|0|2|1|0|1|2|0|1|0|2|0|1|3|2|5|1|1|0|2|2|0|1|0|1|0|0|2|2|1|0|1|1|4|3|0|3|1|1|2|3|5|3|2|2|3|5|2|2|3|2|3|3|1|2|1|3|1|0|2|3|1|1|2|2|1|2|0|2|0|2|0|3|4|2|1|3|3|1|1|2|1|1|1|1|2|2|0|3|2|2|2|0|2|1|4|3|1|1|3|2|0|2|1|0|0|3|3|2|1|4|2|2|3|2|2|2|1|4|2|2|1|2|3|0|1|2|2|0|2|1|3|1|2|2|4|0|0|0|0|1|5|1|2|0|2|3|1|0|1|0|1|0|1|0|3|1|1|1|2|0|0|0|0|1|0|1|0|0|0|1|0|2|1|1|1|1|2|0|0|0|0|0|1|2|1|1|0|1|2|0|0|0|1|0|0|0|1|0|2|0|2|0|1|0|0|1|1|1|1|0|0|2|1|1|2|0|1|0|0|0|2|1|2|0|2|4|0|2|1|0|0|1|2|5|0|1|0|0|1|0|3|2|3|1|2|2|0|1|1|3|3|1|0|1|0|1|2|1|1|0|1|0|0|1|2|3|0|1|0|0|0|0|1|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2345.091796875</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2401.6293945312</MDI>
+          <MDI key="STATISTICS_MEAN">2380.1516825845</MDI>
+          <MDI key="STATISTICS_STDDEV">11.6804794794</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="3">
+        <Histograms>
+          <HistItem>
+            <HistMin>2344.498859405518</HistMin>
+            <HistMax>2402.667888641357</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|1|1|0|0|0|2|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|1|1|0|0|0|0|1|1|0|0|1|0|0|1|2|0|0|1|0|0|0|2|0|0|0|0|0|0|1|0|1|0|0|0|0|1|0|0|1|2|0|0|0|0|0|0|0|0|0|1|1|0|2|0|0|0|2|1|1|0|0|0|1|0|0|0|0|1|1|1|0|1|0|2|0|0|0|1|0|1|1|1|0|0|0|2|0|0|0|0|2|1|2|2|3|3|1|0|0|1|2|2|1|0|1|3|1|0|0|0|0|0|1|0|0|0|2|1|0|0|0|1|3|3|1|0|1|1|1|0|0|1|0|1|1|0|0|1|7|1|1|3|1|0|2|2|3|0|2|3|1|1|5|3|2|2|1|0|2|1|1|2|3|1|2|3|2|3|0|2|3|0|2|1|4|1|7|2|3|1|2|2|1|2|2|1|4|2|0|6|0|1|4|0|6|0|2|3|1|0|2|0|2|5|2|4|1|0|2|0|2|1|0|2|1|1|1|2|1|1|0|0|1|1|4|1|0|4|3|0|0|1|0|4|2|1|5|3|1|0|4|1|2|1|2|3|1|1|3|3|0|2|0|1|2|1|3|2|1|0|0|3|1|5|3|0|3|1|1|1|1|0|1|0|3|0|2|1|1|1|2|1|5|1|3|1|1|1|1|2|0|2|4|1|2|0|0|2|3|2|2|3|1|1|1|2|1|1|2|3|1|2|1|2|0|1|1|0|3|0|2|0|0|2|3|1|1|0|1|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2344.5593261719</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2402.607421875</MDI>
+          <MDI key="STATISTICS_MEAN">2385.1538389653</MDI>
+          <MDI key="STATISTICS_STDDEV">11.094755995273</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="4">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2373.7717285156</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2443.2241210938</MDI>
+          <MDI key="STATISTICS_MEAN">2404.1645829821</MDI>
+          <MDI key="STATISTICS_STDDEV">15.331172192284</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="5">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2387.3276367188</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2461.7099609375</MDI>
+          <MDI key="STATISTICS_MEAN">2417.3515227833</MDI>
+          <MDI key="STATISTICS_STDDEV">21.274729709054</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="6">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2389.1396484375</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2468.4248046875</MDI>
+          <MDI key="STATISTICS_MEAN">2420.3023523942</MDI>
+          <MDI key="STATISTICS_STDDEV">23.194535407626</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="7">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2389.7375488281</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2469.119140625</MDI>
+          <MDI key="STATISTICS_MEAN">2419.1703178734</MDI>
+          <MDI key="STATISTICS_STDDEV">21.499435300853</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="8">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2389.3132324219</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2478.1154785156</MDI>
+          <MDI key="STATISTICS_MEAN">2417.8328378486</MDI>
+          <MDI key="STATISTICS_STDDEV">23.220995804317</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="9">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2372.1923828125</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2435.9526367188</MDI>
+          <MDI key="STATISTICS_MEAN">2396.0631880327</MDI>
+          <MDI key="STATISTICS_STDDEV">12.434456752542</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="10">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2377.1596679688</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2412.8198242188</MDI>
+          <MDI key="STATISTICS_MEAN">2392.6498474413</MDI>
+          <MDI key="STATISTICS_STDDEV">8.2399852850019</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="11">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2358.8889160156</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2416.9614257812</MDI>
+          <MDI key="STATISTICS_MEAN">2389.0265955583</MDI>
+          <MDI key="STATISTICS_STDDEV">10.545391944392</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="12">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2366.5224609375</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2432.9743652344</MDI>
+          <MDI key="STATISTICS_MEAN">2401.138560902</MDI>
+          <MDI key="STATISTICS_STDDEV">10.253363756666</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="13">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2356.669921875</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2423.1455078125</MDI>
+          <MDI key="STATISTICS_MEAN">2400.3853292511</MDI>
+          <MDI key="STATISTICS_STDDEV">7.9733293793342</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="tco2">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="latitude#axis">Y</MDI>
+        <MDI key="latitude#long_name">Latitude</MDI>
+        <MDI key="latitude#standard_name">latitude</MDI>
+        <MDI key="latitude#units">degrees_north</MDI>
+        <MDI key="latitude#unit_long">Degrees North</MDI>
+        <MDI key="longitude#axis">X</MDI>
+        <MDI key="longitude#long_name">Longitude</MDI>
+        <MDI key="longitude#standard_name">longitude</MDI>
+        <MDI key="longitude#units">degrees_east</MDI>
+        <MDI key="longitude#unit_long">Degrees East</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.11</MDI>
+        <MDI key="NC_GLOBAL#institution">CEA/LSCE</MDI>
+        <MDI key="NC_GLOBAL#references">Chau, T.-T.-T., Chevallier, F., &amp; Gehlen, M. (2024). Global analysis of surface ocean CO2 fugacity and air-sea fluxes with low latency. Geophysical Research Letters, 51, e2023GL106670. https://doi.org/10.1029/2023GL106670
+ Chau, T.-T.-T., Gehlen, M., Metzl, N., and Chevallier, F.: CMEMS-LSCE: a global, 0.25°, monthly reconstruction of the surface ocean carbonate system, Earth Syst. Sci. Data, 16, 121–160, https://doi.org/10.5194/essd-16-121-2024, 2024.</MDI>
+        <MDI key="NC_GLOBAL#subset">datasetId=cmems_obs-mob_glo_bgc-car_my_irr-i_202603</MDI>
+        <MDI key="NC_GLOBAL#subset">date=2026-08-29T18:25:48.078Z</MDI>
+        <MDI key="NC_GLOBAL#subset">productId=MULTIOBS_GLO_BGC_CARBON_SURFACE_MYNRT_015_008</MDI>
+        <MDI key="NC_GLOBAL#subset">source=ARCO data downloaded from the Marine Data Store using the MyOcean Data Portal</MDI>
+        <MDI key="NC_GLOBAL#title">Surface ocean carbon fields</MDI>
+        <MDI key="NETCDF_DIM_EXTRA">{time}</MDI>
+        <MDI key="NETCDF_DIM_time_DEF">{13,6}</MDI>
+        <MDI key="NETCDF_DIM_time_VALUES">{1546300800,1548979200,1551398400,1554076800,1556668800,1559347200,1561939200,1564617600,1567296000,1569888000,1572566400,1575158400,1577836800}</MDI>
+        <MDI key="tco2#long_name">Surface ocean dissolved inorganic carbon</MDI>
+        <MDI key="tco2#standard_name">dissolved_inorganic_carbon_in_sea_water</MDI>
+        <MDI key="tco2#units">micro mol kg-1</MDI>
+        <MDI key="tco2#_FillValue">nan</MDI>
+        <MDI key="time#axis">T</MDI>
+        <MDI key="time#calendar">gregorian</MDI>
+        <MDI key="time#long_name">Time</MDI>
+        <MDI key="time#standard_name">time</MDI>
+        <MDI key="time#units">seconds since 1970-01-01 00:00:00</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Histograms>
+          <HistItem>
+            <HistMin>2020.420304489136</HistMin>
+            <HistMax>2085.931380081177</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|1|1|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|2|0|1|1|0|0|1|0|2|0|1|1|1|2|1|0|0|0|0|0|1|0|0|0|1|2|1|0|0|2|0|0|3|2|0|0|3|0|0|1|3|1|1|0|2|1|1|2|4|1|2|3|1|2|1|1|1|1|1|6|1|0|4|2|1|2|4|1|3|0|4|2|1|1|1|1|1|1|3|3|3|2|3|2|1|0|2|2|1|3|0|0|3|3|0|1|4|2|3|1|2|1|2|2|0|1|1|3|3|3|1|0|0|4|2|2|0|3|1|1|4|0|4|2|1|2|3|3|0|2|2|2|4|1|3|0|4|3|1|3|1|1|2|4|2|0|0|2|3|2|2|3|0|0|4|4|3|5|4|4|2|2|3|4|2|1|5|1|3|2|2|2|2|3|4|4|0|0|4|1|2|0|1|2|2|2|1|0|2|5|3|2|1|3|2|4|4|2|1|1|1|1|2|4|1|0|2|4|2|2|0|2|1|0|2|0|1|0|1|0|0|2|0|0|0|1|0|1|0|0|0|0|1|2|0|0|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|1|0|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|2|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|1|0|1|0|0|0|0|0|0|0|0|1|1|0|0|1|1|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2020.4884033203</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2085.86328125</MDI>
+          <MDI key="STATISTICS_MEAN">2045.6923471843</MDI>
+          <MDI key="STATISTICS_STDDEV">11.091654243029</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="2">
+        <Histograms>
+          <HistItem>
+            <HistMin>2029.569153467814</HistMin>
+            <HistMax>2071.667785008749</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|1|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|2|0|2|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|1|0|1|1|0|1|0|2|1|2|0|0|0|0|1|2|0|1|1|0|2|1|2|1|1|1|1|0|0|0|1|1|1|0|0|3|2|0|1|2|0|2|2|1|2|0|0|1|1|2|1|1|0|0|0|3|1|0|0|3|3|6|1|4|4|0|0|3|1|2|1|0|4|5|3|2|3|2|0|0|0|4|1|1|1|3|3|1|1|1|1|2|2|0|4|4|3|1|1|1|1|2|2|0|1|1|2|2|1|4|2|3|1|1|0|1|1|4|1|1|2|4|0|3|2|3|3|0|3|1|0|3|4|1|1|2|1|4|2|0|1|2|1|2|2|3|1|2|1|2|2|1|3|0|2|1|0|0|1|1|1|2|1|1|1|0|3|1|1|1|0|4|3|0|2|5|0|1|0|0|3|0|3|0|1|1|2|2|1|2|1|2|1|0|2|2|0|2|0|0|1|2|3|0|2|0|1|1|0|1|0|2|2|4|4|1|2|1|6|1|0|1|1|1|0|1|1|1|0|1|2|0|1|1|2|0|1|0|1|1|1|0|0|5|1|1|1|1|0|1|0|3|0|0|0|0|1|3|2|0|0|0|1|0|0|0|1|2|1|0|1|1|1|2|0|1|2|0|0|2|1|1|0|1|1|0|0|0|2|0|0|0|1|1|1|0|2|0|0|0|0|2|2|0|1|1|0|3|1|1|0|1|1|0|0|0|2|0|1|1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2029.6129150391</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2071.6240234375</MDI>
+          <MDI key="STATISTICS_MEAN">2049.2144754948</MDI>
+          <MDI key="STATISTICS_STDDEV">7.9560855173341</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="3">
+        <Histograms>
+          <HistItem>
+            <HistMin>2025.724068450928</HistMin>
+            <HistMax>2072.042777252197</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|0|2|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|0|1|0|0|0|1|1|1|0|1|1|1|0|0|0|1|0|0|0|0|0|1|0|0|0|1|1|0|0|0|1|0|2|1|1|1|2|1|1|1|0|2|0|0|0|1|1|1|1|1|2|1|0|1|0|1|1|1|1|1|2|1|2|0|2|2|1|1|1|0|1|2|0|0|0|1|0|2|1|2|1|1|2|1|0|1|0|2|2|3|3|0|0|2|2|1|0|0|2|1|2|2|0|0|2|0|5|4|2|4|2|1|0|4|0|1|0|2|0|2|3|3|3|1|1|3|4|1|1|2|0|6|1|0|2|0|1|3|2|1|1|2|0|2|1|0|1|0|0|1|3|2|1|1|0|0|2|2|0|1|2|1|1|1|2|1|0|1|3|0|2|1|2|2|1|3|0|1|2|1|2|1|1|1|1|2|3|2|3|1|3|1|2|2|1|2|2|2|2|1|2|3|1|1|2|1|4|3|1|4|2|1|2|2|3|2|3|1|0|4|1|2|2|2|2|1|1|1|0|0|0|0|1|1|1|1|1|3|1|3|2|0|0|0|3|1|0|0|2|4|4|1|1|1|1|3|2|2|1|0|0|0|1|2|3|0|1|0|2|1|0|2|1|2|3|2|2|1|1|2|0|1|2|2|0|1|1|1|0|0|1|1|1|1|3|1|3|1|1|0|1|1|4|0|0|1|1|1|0|0|1|0|0|1|0|0|1|0|1|0|2|1|1|0|1|0|0|0|0|1|0|0|1|1|0|1|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|0|0|1|0|0|1|0|0|0|0|1|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">2025.7722167969</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2071.9946289062</MDI>
+          <MDI key="STATISTICS_MEAN">2050.848287044</MDI>
+          <MDI key="STATISTICS_STDDEV">8.7380784207896</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="omega_ar">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="latitude#axis">Y</MDI>
+        <MDI key="latitude#long_name">Latitude</MDI>
+        <MDI key="latitude#standard_name">latitude</MDI>
+        <MDI key="latitude#units">degrees_north</MDI>
+        <MDI key="latitude#unit_long">Degrees North</MDI>
+        <MDI key="longitude#axis">X</MDI>
+        <MDI key="longitude#long_name">Longitude</MDI>
+        <MDI key="longitude#standard_name">longitude</MDI>
+        <MDI key="longitude#units">degrees_east</MDI>
+        <MDI key="longitude#unit_long">Degrees East</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.11</MDI>
+        <MDI key="NC_GLOBAL#institution">CEA/LSCE</MDI>
+        <MDI key="NC_GLOBAL#references">Chau, T.-T.-T., Chevallier, F., &amp; Gehlen, M. (2024). Global analysis of surface ocean CO2 fugacity and air-sea fluxes with low latency. Geophysical Research Letters, 51, e2023GL106670. https://doi.org/10.1029/2023GL106670
+ Chau, T.-T.-T., Gehlen, M., Metzl, N., and Chevallier, F.: CMEMS-LSCE: a global, 0.25°, monthly reconstruction of the surface ocean carbonate system, Earth Syst. Sci. Data, 16, 121–160, https://doi.org/10.5194/essd-16-121-2024, 2024.</MDI>
+        <MDI key="NC_GLOBAL#subset">datasetId=cmems_obs-mob_glo_bgc-car_my_irr-i_202603</MDI>
+        <MDI key="NC_GLOBAL#subset">date=2026-08-29T18:25:48.078Z</MDI>
+        <MDI key="NC_GLOBAL#subset">productId=MULTIOBS_GLO_BGC_CARBON_SURFACE_MYNRT_015_008</MDI>
+        <MDI key="NC_GLOBAL#subset">source=ARCO data downloaded from the Marine Data Store using the MyOcean Data Portal</MDI>
+        <MDI key="NC_GLOBAL#title">Surface ocean carbon fields</MDI>
+        <MDI key="NETCDF_DIM_EXTRA">{time}</MDI>
+        <MDI key="NETCDF_DIM_time_DEF">{13,6}</MDI>
+        <MDI key="NETCDF_DIM_time_VALUES">{1546300800,1548979200,1551398400,1554076800,1556668800,1559347200,1561939200,1564617600,1567296000,1569888000,1572566400,1575158400,1577836800}</MDI>
+        <MDI key="omega_ar#long_name">Saturation state for surface seawater with respect to aragonite</MDI>
+        <MDI key="omega_ar#standard_name">aragonite_saturation_state_in_sea_water</MDI>
+        <MDI key="omega_ar#units">-</MDI>
+        <MDI key="omega_ar#_FillValue">nan</MDI>
+        <MDI key="time#axis">T</MDI>
+        <MDI key="time#calendar">gregorian</MDI>
+        <MDI key="time#long_name">Time</MDI>
+        <MDI key="time#standard_name">time</MDI>
+        <MDI key="time#units">seconds since 1970-01-01 00:00:00</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Histograms>
+          <HistItem>
+            <HistMin>3.112996893127759</HistMin>
+            <HistMax>3.879898710052172</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|2|0|0|0|0|0|1|0|0|0|0|1|0|0|0|1|1|0|0|0|1|1|1|1|2|1|0|0|0|1|1|0|0|1|0|2|0|0|0|0|0|1|0|0|1|3|0|1|0|0|0|1|0|0|0|1|0|2|2|1|1|0|1|0|2|3|2|0|1|2|1|0|1|4|0|0|0|0|1|0|0|0|0|0|1|0|0|0|5|1|1|1|0|0|1|1|2|0|1|0|1|1|0|2|1|0|0|0|1|0|1|2|0|3|2|1|1|0|1|1|0|0|1|1|0|1|1|1|0|1|0|1|0|1|1|0|0|0|3|0|0|1|0|1|0|3|1|1|1|2|0|2|1|0|1|0|1|0|2|0|1|0|1|1|2|0|1|2|2|2|0|1|0|1|1|0|2|1|2|1|2|0|0|0|0|1|1|2|1|1|2|2|2|2|2|2|1|0|1|1|1|1|2|0|1|3|5|1|2|3|3|1|2|2|3|1|2|0|2|3|1|1|4|4|2|2|1|1|1|1|2|4|5|6|2|1|3|3|1|1|2|3|0|2|5|3|2|3|0|3|2|0|3|0|3|0|2|3|2|1|1|1|2|2|2|3|2|2|0|2|0|2|2|5|2|1|0|2|2|3|3|1|5|2|0|2|2|1|3|0|0|0|1|0|1|2|1|2|0|2|0|4|3|0|0|2|2|1|2|3|1|3|5|1|4|0|1|0|0|0|1|0|1|0|0|0|2|1|4|1|0|0|1|1|2|0|1|3|3|3|2|2|3|2|3|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">3.1137940883636</MDI>
+          <MDI key="STATISTICS_MAXIMUM">3.8791015148163</MDI>
+          <MDI key="STATISTICS_MEAN">3.6515750839379</MDI>
+          <MDI key="STATISTICS_STDDEV">0.15074356717626</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="2">
+        <Histograms>
+          <HistItem>
+            <HistMin>3.246805727481842</HistMin>
+            <HistMax>3.872668206691742</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|1|0|1|1|0|0|0|0|2|0|0|0|1|1|0|0|0|0|1|0|0|1|0|0|1|2|0|0|2|0|0|1|1|1|0|0|0|0|0|2|1|0|0|0|1|0|0|1|0|1|0|0|1|1|1|0|0|0|0|1|0|0|0|1|2|1|1|1|0|1|0|0|0|0|0|4|0|1|1|0|1|1|1|2|1|0|3|2|0|1|3|2|3|0|4|1|3|3|2|1|1|0|1|2|1|4|4|2|0|2|1|0|3|1|1|3|2|2|1|0|0|1|3|2|1|0|3|1|0|1|2|1|0|4|1|2|0|1|3|0|3|1|2|4|2|2|2|0|0|0|5|2|3|1|1|3|0|3|0|3|1|1|1|1|0|3|0|0|0|3|2|0|0|1|3|1|2|2|0|0|0|1|2|0|0|2|2|2|1|1|1|4|0|1|1|3|1|2|1|1|1|0|8|2|3|1|1|2|3|2|1|3|3|1|2|0|3|0|1|1|1|4|2|2|2|2|0|0|0|3|1|4|1|2|2|1|2|3|0|2|2|1|2|3|0|1|1|2|0|1|1|1|2|2|2|1|0|2|0|1|1|1|1|0|3|0|4|2|1|3|3|2|1|1|4|2|2|3|1|1|1|4|2|2|1|2|3|4|2|0|1|1|1|2|3|2|3|0|0|2|1|1|1|2|1|1|2|2|2|0|2|2|0|1|1|1|0|3|1|0|0|2|1|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">3.2474563121796</MDI>
+          <MDI key="STATISTICS_MAXIMUM">3.872017621994</MDI>
+          <MDI key="STATISTICS_MEAN">3.6821195183759</MDI>
+          <MDI key="STATISTICS_STDDEV">0.11382385088226</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="3">
+        <Histograms>
+          <HistItem>
+            <HistMin>3.194921042273442</HistMin>
+            <HistMax>3.868522856881221</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|0|1|0|0|2|0|0|0|0|0|1|2|1|0|0|0|2|1|0|0|0|0|0|1|0|0|0|1|0|0|0|1|1|0|1|1|0|0|0|0|0|1|0|0|0|1|1|0|0|1|0|0|0|0|0|0|0|2|0|0|0|0|1|0|0|0|0|0|0|0|1|0|1|1|0|1|0|0|0|0|0|0|0|1|1|0|2|0|0|0|0|1|0|0|0|1|0|1|1|0|0|0|0|0|2|2|0|2|4|0|0|0|2|0|0|0|0|1|1|1|1|2|1|0|2|2|1|3|3|0|3|1|2|1|1|1|1|2|4|4|3|3|2|1|2|3|3|2|3|3|5|3|3|9|1|4|2|3|5|3|1|2|3|6|4|0|1|1|1|2|3|1|2|3|2|2|3|7|3|1|5|4|3|4|3|6|3|4|5|4|1|2|4|5|3|1|2|4|5|4|5|3|2|5|5|7|7|4|4|3|1|1|1|2|1|1|3|1|2|1|2|1|0|1|1|1|3|0|1|0|0|1|2|2|1|0|1|1|1|2|1|1|2|3|3|1|1|3|2|2|2|1|2|2|1|1|1|3|7|3|3|2|0|2|1|2|2|2|0|0|2|2|0|0|0|2|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">3.1956212520599</MDI>
+          <MDI key="STATISTICS_MAXIMUM">3.8678226470947</MDI>
+          <MDI key="STATISTICS_MEAN">3.7210900886207</MDI>
+          <MDI key="STATISTICS_STDDEV">0.093887066495969</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="omega_ca">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="latitude#axis">Y</MDI>
+        <MDI key="latitude#long_name">Latitude</MDI>
+        <MDI key="latitude#standard_name">latitude</MDI>
+        <MDI key="latitude#units">degrees_north</MDI>
+        <MDI key="latitude#unit_long">Degrees North</MDI>
+        <MDI key="longitude#axis">X</MDI>
+        <MDI key="longitude#long_name">Longitude</MDI>
+        <MDI key="longitude#standard_name">longitude</MDI>
+        <MDI key="longitude#units">degrees_east</MDI>
+        <MDI key="longitude#unit_long">Degrees East</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.11</MDI>
+        <MDI key="NC_GLOBAL#institution">CEA/LSCE</MDI>
+        <MDI key="NC_GLOBAL#references">Chau, T.-T.-T., Chevallier, F., &amp; Gehlen, M. (2024). Global analysis of surface ocean CO2 fugacity and air-sea fluxes with low latency. Geophysical Research Letters, 51, e2023GL106670. https://doi.org/10.1029/2023GL106670
+ Chau, T.-T.-T., Gehlen, M., Metzl, N., and Chevallier, F.: CMEMS-LSCE: a global, 0.25°, monthly reconstruction of the surface ocean carbonate system, Earth Syst. Sci. Data, 16, 121–160, https://doi.org/10.5194/essd-16-121-2024, 2024.</MDI>
+        <MDI key="NC_GLOBAL#subset">datasetId=cmems_obs-mob_glo_bgc-car_my_irr-i_202603</MDI>
+        <MDI key="NC_GLOBAL#subset">date=2026-08-29T18:25:48.078Z</MDI>
+        <MDI key="NC_GLOBAL#subset">productId=MULTIOBS_GLO_BGC_CARBON_SURFACE_MYNRT_015_008</MDI>
+        <MDI key="NC_GLOBAL#subset">source=ARCO data downloaded from the Marine Data Store using the MyOcean Data Portal</MDI>
+        <MDI key="NC_GLOBAL#title">Surface ocean carbon fields</MDI>
+        <MDI key="NETCDF_DIM_EXTRA">{time}</MDI>
+        <MDI key="NETCDF_DIM_time_DEF">{13,6}</MDI>
+        <MDI key="NETCDF_DIM_time_VALUES">{1546300800,1548979200,1551398400,1554076800,1556668800,1559347200,1561939200,1564617600,1567296000,1569888000,1572566400,1575158400,1577836800}</MDI>
+        <MDI key="omega_ca#long_name">Saturation state for surface seawater with respect to calcite</MDI>
+        <MDI key="omega_ca#standard_name">calcite_saturation_state_in_sea_water</MDI>
+        <MDI key="omega_ca#units">-</MDI>
+        <MDI key="omega_ca#_FillValue">nan</MDI>
+        <MDI key="time#axis">T</MDI>
+        <MDI key="time#calendar">gregorian</MDI>
+        <MDI key="time#long_name">Time</MDI>
+        <MDI key="time#standard_name">time</MDI>
+        <MDI key="time#units">seconds since 1970-01-01 00:00:00</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Histograms>
+          <HistItem>
+            <HistMin>4.765197024246057</HistMin>
+            <HistMax>5.849389329055945</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|2|0|0|1|0|0|0|0|1|0|0|0|1|0|0|1|0|0|0|2|0|1|0|2|0|0|1|2|0|0|0|2|0|0|2|0|0|1|1|1|0|0|0|0|1|1|2|0|0|1|0|0|1|1|1|1|0|0|3|1|0|1|3|2|3|2|0|2|0|2|0|1|0|0|0|0|0|1|1|0|0|2|1|0|2|0|0|1|0|1|1|1|2|2|1|1|2|0|0|0|0|1|0|2|1|1|1|0|2|2|1|1|1|0|0|0|2|1|1|1|1|2|0|0|0|0|0|0|1|1|0|0|0|0|2|1|2|0|0|3|2|2|0|0|0|1|1|0|0|1|3|1|0|2|0|1|1|0|3|0|0|0|0|1|1|0|1|0|3|1|2|1|0|0|1|0|1|1|3|2|1|1|0|2|1|1|1|1|1|4|2|0|2|1|0|2|3|0|1|1|2|2|2|2|0|0|4|2|2|2|3|1|3|2|2|2|3|1|0|1|2|1|2|3|4|7|2|1|2|0|4|1|2|1|3|3|5|0|1|3|0|1|0|2|2|2|1|2|1|5|3|1|0|4|1|1|1|1|2|1|3|1|0|3|2|1|5|1|1|4|2|2|1|2|2|3|2|1|2|1|1|4|2|3|2|0|3|1|3|2|1|0|1|1|2|1|0|0|2|3|1|2|3|0|4|4|1|1|3|4|0|0|0|1|3|2|1|1|0|0|0|1|2|1|1|0|1|1|2|0|1|2|3|0|2|2|2|3|2|3|2|1|2|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">4.7663240432739</MDI>
+          <MDI key="STATISTICS_MAXIMUM">5.8482623100281</MDI>
+          <MDI key="STATISTICS_MEAN">5.5285271411877</MDI>
+          <MDI key="STATISTICS_STDDEV">0.2140723582531</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="2">
+        <Histograms>
+          <HistItem>
+            <HistMin>4.947656859457493</HistMin>
+            <HistMax>5.846982251107693</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|1|1|0|1|0|0|1|0|0|1|0|0|1|0|2|0|0|0|0|0|0|0|0|2|2|1|0|0|1|1|0|2|0|1|0|0|0|0|0|1|0|1|0|1|0|1|1|1|0|0|0|1|0|0|1|0|1|0|0|1|1|0|2|1|2|0|0|1|2|0|0|1|0|2|0|0|2|1|2|2|1|5|0|4|1|1|2|1|3|3|0|2|1|3|2|0|2|2|1|1|4|0|1|2|1|2|1|1|0|0|3|1|2|0|3|0|0|1|1|1|2|3|0|2|0|0|2|2|0|1|2|0|5|0|0|0|2|2|2|1|2|2|1|4|0|3|2|2|1|3|1|5|1|1|0|3|4|1|0|2|0|2|1|1|1|2|2|1|2|1|0|0|1|0|0|2|0|2|0|3|2|2|1|1|1|3|0|2|2|1|0|1|2|2|1|1|4|2|4|2|4|0|3|2|3|0|3|2|1|2|0|0|1|1|3|0|1|3|1|2|2|0|1|0|2|0|1|3|4|1|3|1|2|1|0|2|2|1|0|3|0|3|3|1|2|1|1|2|1|3|1|0|1|1|0|0|2|3|0|3|2|0|1|2|3|0|0|3|4|4|2|2|4|3|2|3|0|3|2|4|4|0|2|2|4|1|1|2|2|0|2|1|1|3|1|0|0|0|2|2|1|3|0|2|1|2|1|2|0|1|2|2|0|0|1|1|1|0|1|2|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">4.948591709137</MDI>
+          <MDI key="STATISTICS_MAXIMUM">5.8460474014282</MDI>
+          <MDI key="STATISTICS_MEAN">5.573848659342</MDI>
+          <MDI key="STATISTICS_STDDEV">0.16379914427697</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="3">
+        <Histograms>
+          <HistItem>
+            <HistMin>4.864248650769393</HistMin>
+            <HistMax>5.829029185076554</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|1|0|1|0|0|0|0|1|0|1|1|1|1|0|0|1|1|0|1|0|1|0|0|0|0|0|0|2|1|1|1|0|0|0|0|0|0|0|1|0|1|0|0|0|1|0|0|0|1|0|0|0|0|0|0|1|1|0|0|0|0|1|0|0|0|0|0|0|1|0|2|0|0|0|0|0|1|0|0|0|0|1|1|0|0|1|0|1|0|0|0|1|0|1|0|0|1|0|0|0|1|0|0|1|0|0|1|1|2|1|1|3|1|0|0|1|1|0|1|1|1|2|2|2|1|2|2|0|1|0|2|1|4|2|2|1|4|1|1|4|4|2|3|2|4|4|6|4|4|4|3|2|3|3|2|3|6|6|1|1|1|3|2|0|1|0|1|0|2|3|4|1|2|0|2|1|3|5|2|2|0|4|1|4|3|3|3|2|2|5|2|8|5|7|5|5|5|5|2|3|4|3|7|3|5|1|4|5|6|1|2|3|2|5|4|0|2|2|0|1|3|3|2|1|0|1|4|1|0|1|1|0|1|0|1|3|2|4|2|1|1|0|3|2|2|1|1|4|2|2|2|1|1|2|0|1|3|3|2|4|4|1|3|0|0|3|2|2|2|1|1|0|1|1|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">4.8652515411377</MDI>
+          <MDI key="STATISTICS_MAXIMUM">5.8280262947083</MDI>
+          <MDI key="STATISTICS_MEAN">5.6233592752064</MDI>
+          <MDI key="STATISTICS_STDDEV">0.13550803553209</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="ph">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="latitude#axis">Y</MDI>
+        <MDI key="latitude#long_name">Latitude</MDI>
+        <MDI key="latitude#standard_name">latitude</MDI>
+        <MDI key="latitude#units">degrees_north</MDI>
+        <MDI key="latitude#unit_long">Degrees North</MDI>
+        <MDI key="longitude#axis">X</MDI>
+        <MDI key="longitude#long_name">Longitude</MDI>
+        <MDI key="longitude#standard_name">longitude</MDI>
+        <MDI key="longitude#units">degrees_east</MDI>
+        <MDI key="longitude#unit_long">Degrees East</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.11</MDI>
+        <MDI key="NC_GLOBAL#institution">CEA/LSCE</MDI>
+        <MDI key="NC_GLOBAL#references">Chau, T.-T.-T., Chevallier, F., &amp; Gehlen, M. (2024). Global analysis of surface ocean CO2 fugacity and air-sea fluxes with low latency. Geophysical Research Letters, 51, e2023GL106670. https://doi.org/10.1029/2023GL106670
+ Chau, T.-T.-T., Gehlen, M., Metzl, N., and Chevallier, F.: CMEMS-LSCE: a global, 0.25°, monthly reconstruction of the surface ocean carbonate system, Earth Syst. Sci. Data, 16, 121–160, https://doi.org/10.5194/essd-16-121-2024, 2024.</MDI>
+        <MDI key="NC_GLOBAL#subset">datasetId=cmems_obs-mob_glo_bgc-car_my_irr-i_202603</MDI>
+        <MDI key="NC_GLOBAL#subset">date=2026-08-29T18:25:48.078Z</MDI>
+        <MDI key="NC_GLOBAL#subset">productId=MULTIOBS_GLO_BGC_CARBON_SURFACE_MYNRT_015_008</MDI>
+        <MDI key="NC_GLOBAL#subset">source=ARCO data downloaded from the Marine Data Store using the MyOcean Data Portal</MDI>
+        <MDI key="NC_GLOBAL#title">Surface ocean carbon fields</MDI>
+        <MDI key="NETCDF_DIM_EXTRA">{time}</MDI>
+        <MDI key="NETCDF_DIM_time_DEF">{13,6}</MDI>
+        <MDI key="NETCDF_DIM_time_VALUES">{1546300800,1548979200,1551398400,1554076800,1556668800,1559347200,1561939200,1564617600,1567296000,1569888000,1572566400,1575158400,1577836800}</MDI>
+        <MDI key="ph#long_name">PH on total scale</MDI>
+        <MDI key="ph#standard_name">sea_water_ph_reported_on_total_scale</MDI>
+        <MDI key="ph#units">1</MDI>
+        <MDI key="ph#_FillValue">nan</MDI>
+        <MDI key="time#axis">T</MDI>
+        <MDI key="time#calendar">gregorian</MDI>
+        <MDI key="time#long_name">Time</MDI>
+        <MDI key="time#standard_name">time</MDI>
+        <MDI key="time#units">seconds since 1970-01-01 00:00:00</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Histograms>
+          <HistItem>
+            <HistMin>8.051265233755112</HistMin>
+            <HistMax>8.089344507455825</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|1|0|0|3|1|0|0|0|0|1|0|0|0|0|1|0|1|1|1|2|1|1|0|0|3|0|1|0|0|0|0|0|1|1|2|2|2|1|0|1|2|2|0|1|1|2|3|0|0|1|1|0|1|1|0|1|0|0|0|1|1|0|1|0|0|2|0|3|2|2|0|1|2|2|1|0|0|1|1|1|0|0|1|0|1|0|0|1|1|0|1|0|0|1|0|1|1|0|0|1|0|0|0|1|0|0|1|0|0|0|0|1|0|0|0|2|1|0|0|0|1|0|0|0|0|0|0|0|0|2|0|0|0|3|0|0|2|3|2|0|1|0|0|0|1|1|0|2|2|0|0|0|1|0|3|1|1|2|2|1|1|0|0|1|0|0|2|0|0|0|2|1|0|1|1|0|2|1|0|0|1|0|0|2|0|2|1|0|1|1|3|1|2|1|3|0|0|3|1|1|0|1|0|6|2|1|1|0|2|1|2|4|1|0|2|1|1|0|2|3|0|2|1|0|2|1|0|2|1|1|4|4|2|1|1|1|4|1|2|0|1|2|1|0|0|0|1|1|1|1|2|1|3|1|0|1|1|0|0|2|0|3|1|3|0|1|0|1|2|3|0|0|2|2|1|1|0|1|2|2|2|0|0|1|2|1|1|0|0|1|0|0|1|3|1|1|1|0|0|0|0|0|0|1|1|0|1|0|1|0|1|2|1|1|1|1|0|2|0|0|0|0|2|0|0|2|2|0|0|3|0|2|3|0|0|1|0|0|2|0|0|0|0|3|0|0|0|2|0|1|1|0|1|0|1|0|1|0|0|1|1|0|0|0|1|2|0|2|0|0|1|1|0|0|2|2|0|0|0|1|0|0|0|1|0|1|1|1|1|2|0|0|1|2|1|1|2|1|1|0|2|2|2|0|0|2|1|0|1|0|0|0|1|0|0|3|1|1|0|0|0|0|1|1|0|4|1|1|1|2|0|0|0|0|2|1|2|1|0|1|0|3|0|2|0|1|1|2|2|2|2|0|0|2|1|3|1|0|1|0|2|5|1|1|0|1|0|1|1|0|3|2|0|1|2|1|2|1|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">8.0513048171997</MDI>
+          <MDI key="STATISTICS_MAXIMUM">8.0893049240112</MDI>
+          <MDI key="STATISTICS_MEAN">8.0713181723818</MDI>
+          <MDI key="STATISTICS_STDDEV">0.010751959551807</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="2">
+        <Histograms>
+          <HistItem>
+            <HistMin>8.046542286872864</HistMin>
+            <HistMax>8.093216776847839</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|1|1|0|0|1|0|0|0|1|1|1|0|0|0|1|0|0|1|2|0|1|0|0|1|1|0|0|1|0|1|0|0|2|1|0|1|1|1|0|0|0|1|1|0|1|1|1|2|0|0|3|1|0|0|0|0|0|0|1|1|0|1|0|1|0|0|1|0|0|1|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|1|1|0|1|1|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|1|0|0|0|2|0|1|1|1|1|1|1|1|2|0|0|0|2|1|0|0|2|0|1|0|0|1|0|1|0|0|0|1|2|1|2|1|0|1|0|0|0|2|1|1|1|0|0|4|3|1|1|0|2|0|0|0|1|2|0|1|1|0|1|1|0|0|0|3|0|2|1|1|1|1|0|1|1|1|2|3|0|0|4|1|2|2|0|1|2|0|1|0|0|0|1|1|1|0|0|0|1|3|0|1|1|1|0|1|0|1|0|2|2|3|0|1|1|0|2|1|1|0|1|0|0|0|2|0|1|1|1|0|3|0|1|3|1|2|3|3|2|2|0|2|4|1|6|5|3|1|0|2|3|1|0|2|0|0|1|2|1|0|0|0|2|0|1|2|0|2|1|0|1|2|1|1|1|2|1|0|0|2|1|0|0|0|0|3|2|3|2|0|1|1|1|2|5|1|0|0|2|1|0|0|3|1|2|0|1|0|0|0|5|1|1|3|0|0|0|1|2|0|0|2|1|1|1|1|1|0|2|2|0|2|4|1|1|0|0|2|3|4|3|3|3|1|1|4|2|4|1|1|1|3|0|2|1|2|2|0|2|0|2|0|2|0|0|0|3|0|0|3|1|1|2|3|1|0|0|1|1|3|1|2|1|0|4|1|0|2|3|1|2|1|0|1|2|3|2|3|0|1|2|2|2|2|1|1|1|2|1|0|0|0|2|0|0|0|1|0|0|0|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">8.0465908050537</MDI>
+          <MDI key="STATISTICS_MAXIMUM">8.093168258667</MDI>
+          <MDI key="STATISTICS_MEAN">8.073559129067</MDI>
+          <MDI key="STATISTICS_STDDEV">0.011250606587722</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="3">
+        <Histograms>
+          <HistItem>
+            <HistMin>8.034225751956305</HistMin>
+            <HistMax>8.090829561154047</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0|0|0|0|1|0|1|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|1|0|1|1|0|0|1|0|0|0|2|2|1|0|2|1|1|2|2|0|1|3|5|1|4|4|5|0|4|1|0|0|1|3|0|1|1|1|1|2|0|1|1|1|1|1|3|1|3|1|5|2|0|1|0|1|1|1|0|0|0|0|1|0|0|1|0|0|0|0|0|1|0|1|0|0|1|0|0|2|0|0|0|1|0|0|0|0|0|0|0|1|0|1|1|1|0|0|1|0|0|0|1|1|1|0|0|0|0|2|0|2|1|2|1|1|0|0|1|0|1|0|1|2|0|0|1|0|3|0|0|1|2|2|2|1|2|0|0|0|1|1|0|0|0|1|2|2|2|0|1|2|1|1|0|0|0|1|3|0|1|2|1|1|1|0|1|1|1|0|2|2|1|3|3|1|1|4|1|2|2|2|3|1|3|4|0|3|4|1|0|0|4|0|2|2|1|2|2|1|2|2|1|2|3|2|2|2|2|1|3|1|2|1|1|2|0|0|1|0|2|2|3|2|3|1|2|2|4|1|4|2|0|1|1|0|2|0|2|2|6|4|3|0|1|0|0|3|1|1|1|2|0|1|2|0|0|0|2|0|1|3|2|0|2|0|1|0|2|3|2|2|1|2|3|0|0|0|2|1|0|1|1|2|1|2|0|0|0|0|0|1|3|1|0|0|2|1|0|1|1|0|0|1|1|2|0|1|1|1|0|1|1|2|0|1|1|1|1|1|3|1|1|0|1|0|2|0|1|0|0|0|2|1|1|0|1|0|1|1|1|2|0|1|0|2|1|0|1|1|0|3|1|0|0|3|1|1|0|1|2|0|1|0|3|3|0|1|1|2|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">8.0342845916748</MDI>
+          <MDI key="STATISTICS_MAXIMUM">8.0907707214355</MDI>
+          <MDI key="STATISTICS_MEAN">8.0687747822994</MDI>
+          <MDI key="STATISTICS_STDDEV">0.012644200100035</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="spco2">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="latitude#axis">Y</MDI>
+        <MDI key="latitude#long_name">Latitude</MDI>
+        <MDI key="latitude#standard_name">latitude</MDI>
+        <MDI key="latitude#units">degrees_north</MDI>
+        <MDI key="latitude#unit_long">Degrees North</MDI>
+        <MDI key="longitude#axis">X</MDI>
+        <MDI key="longitude#long_name">Longitude</MDI>
+        <MDI key="longitude#standard_name">longitude</MDI>
+        <MDI key="longitude#units">degrees_east</MDI>
+        <MDI key="longitude#unit_long">Degrees East</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.11</MDI>
+        <MDI key="NC_GLOBAL#institution">CEA/LSCE</MDI>
+        <MDI key="NC_GLOBAL#references">Chau, T.-T.-T., Chevallier, F., &amp; Gehlen, M. (2024). Global analysis of surface ocean CO2 fugacity and air-sea fluxes with low latency. Geophysical Research Letters, 51, e2023GL106670. https://doi.org/10.1029/2023GL106670
+ Chau, T.-T.-T., Gehlen, M., Metzl, N., and Chevallier, F.: CMEMS-LSCE: a global, 0.25°, monthly reconstruction of the surface ocean carbonate system, Earth Syst. Sci. Data, 16, 121–160, https://doi.org/10.5194/essd-16-121-2024, 2024.</MDI>
+        <MDI key="NC_GLOBAL#subset">datasetId=cmems_obs-mob_glo_bgc-car_my_irr-i_202603</MDI>
+        <MDI key="NC_GLOBAL#subset">date=2026-08-29T18:25:48.078Z</MDI>
+        <MDI key="NC_GLOBAL#subset">productId=MULTIOBS_GLO_BGC_CARBON_SURFACE_MYNRT_015_008</MDI>
+        <MDI key="NC_GLOBAL#subset">source=ARCO data downloaded from the Marine Data Store using the MyOcean Data Portal</MDI>
+        <MDI key="NC_GLOBAL#title">Surface ocean carbon fields</MDI>
+        <MDI key="NETCDF_DIM_EXTRA">{time}</MDI>
+        <MDI key="NETCDF_DIM_time_DEF">{13,6}</MDI>
+        <MDI key="NETCDF_DIM_time_VALUES">{1546300800,1548979200,1551398400,1554076800,1556668800,1559347200,1561939200,1564617600,1567296000,1569888000,1572566400,1575158400,1577836800}</MDI>
+        <MDI key="spco2#long_name">Surface aqueous partial pressure of CO2</MDI>
+        <MDI key="spco2#standard_name">surface_partial_pressure_of_carbon_dioxide_in_sea_water</MDI>
+        <MDI key="spco2#units">micro atm</MDI>
+        <MDI key="spco2#_FillValue">nan</MDI>
+        <MDI key="time#axis">T</MDI>
+        <MDI key="time#calendar">gregorian</MDI>
+        <MDI key="time#long_name">Time</MDI>
+        <MDI key="time#standard_name">time</MDI>
+        <MDI key="time#units">seconds since 1970-01-01 00:00:00</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Histograms>
+          <HistItem>
+            <HistMin>365.0289346694946</HistMin>
+            <HistMax>408.0344198226929</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|1|2|2|0|2|3|2|1|1|0|2|1|4|0|4|1|3|0|3|1|1|2|2|2|2|2|1|1|1|2|0|1|4|1|0|1|0|2|2|3|0|2|0|1|2|1|2|0|0|0|1|0|3|0|1|1|2|1|3|2|1|1|2|0|2|3|3|2|0|0|0|1|0|0|1|1|1|1|0|0|2|1|0|0|0|0|1|2|0|2|0|0|0|1|1|0|0|1|1|0|1|1|1|0|1|2|1|1|0|1|1|1|1|1|1|3|2|1|2|1|0|1|0|1|1|0|0|0|0|3|1|1|1|2|0|0|0|1|0|0|2|0|0|0|1|2|1|1|2|2|0|0|0|0|0|3|1|2|0|1|1|1|1|2|2|1|1|2|1|4|0|2|1|1|3|1|2|0|2|0|1|1|2|1|3|1|2|0|0|0|2|0|1|1|0|2|0|2|2|0|0|2|0|0|0|0|1|1|2|3|0|2|2|1|0|0|2|0|1|1|3|1|1|1|1|2|1|0|1|1|0|1|0|0|0|1|1|0|0|2|0|1|1|2|1|1|3|1|2|3|2|2|0|2|1|2|0|2|1|2|1|3|0|0|0|1|2|4|1|1|1|1|3|2|3|2|0|0|2|4|2|0|0|0|0|2|0|0|0|1|4|1|0|1|0|2|2|0|0|1|0|0|2|0|0|0|1|1|1|3|1|2|0|1|0|1|0|0|0|1|0|0|1|1|1|1|0|1|1|1|0|1|0|2|1|0|1|0|1|3|0|1|2|2|2|1|1|1|0|0|0|1|2|1|1|1|0|1|0|0|1|1|0|0|0|1|0|1|1|0|0|0|2|1|3|1|0|0|1|1|0|1|2|1|3|0|1|1|1|2|2|1|4|1|1|0|0|0|2|0|1|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">365.07363891602</MDI>
+          <MDI key="STATISTICS_MAXIMUM">407.98971557617</MDI>
+          <MDI key="STATISTICS_MEAN">382.19201952191</MDI>
+          <MDI key="STATISTICS_STDDEV">10.721528052695</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="2">
+        <Histograms>
+          <HistItem>
+            <HistMin>361.7055585543314</HistMin>
+            <HistMax>409.8600847562154</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>1|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0|0|1|0|0|2|1|0|2|1|0|3|4|1|0|0|2|3|3|3|2|2|2|1|2|3|0|2|4|0|2|1|0|0|1|0|6|0|2|0|1|0|3|1|3|1|1|1|1|0|4|1|2|3|1|0|2|2|2|0|2|0|8|2|4|3|0|3|3|5|0|2|4|2|1|2|1|0|2|1|0|4|1|0|0|2|0|1|0|1|1|0|0|1|1|3|0|2|1|5|4|2|1|3|0|1|1|2|0|2|3|2|1|1|0|0|2|0|0|1|1|0|0|1|1|0|0|0|1|0|1|0|1|1|1|0|3|3|2|2|0|0|1|2|2|1|4|0|0|3|1|1|2|3|3|0|1|2|1|0|2|3|0|2|0|4|0|1|3|0|0|1|1|1|0|2|0|3|2|1|2|1|1|0|0|2|1|1|0|1|1|3|0|1|1|2|1|1|2|1|1|1|2|0|0|1|0|0|0|0|1|0|1|0|0|0|1|0|2|0|1|1|0|0|0|2|0|2|1|2|1|2|1|1|0|0|0|1|0|0|1|0|3|1|0|1|1|3|1|1|0|2|3|1|1|1|0|2|1|4|2|1|0|1|0|0|2|1|0|0|0|0|1|0|0|1|3|2|0|0|0|0|0|1|0|1|1|0|1|1|2|1|1|2|0|1|0|0|0|1|1|1|0|0|0|0|3|2|0|0|0|0|0|0|0|0|0|0|0|1|2|0|1|0|0|0|0|1|0|0|0|1|1|0|0|2|0|0|1|1|0|0|1|0|0|0|0|0|2|0|1|0|0|0|0|0|0|0|2|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|2|0|2|0|0|0|1|1|0|0|0|0|1|0|3|0|2|0|0|0|3|2|0|0|1|0|1|0|0|1|2|1|1|0|0|1|0|0|2|0|1|0|1|0|0|0|1|0|0|1|1|1|1|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|1|0|0|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">361.75561523438</MDI>
+          <MDI key="STATISTICS_MAXIMUM">409.81002807617</MDI>
+          <MDI key="STATISTICS_MEAN">380.31163995916</MDI>
+          <MDI key="STATISTICS_STDDEV">11.923780153013</MDI>
+        </Metadata>
+      </PAMRasterBand>
+      <PAMRasterBand band="3">
+        <Histograms>
+          <HistItem>
+            <HistMin>364.2329318364461</HistMin>
+            <HistMax>424.4545071283976</HistMax>
+            <BucketCount>480</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>2|2|3|2|1|3|2|0|1|1|2|2|0|1|2|2|0|1|0|0|2|4|1|0|0|0|1|0|3|1|2|2|1|3|1|0|2|3|1|3|1|1|3|1|0|0|3|1|0|3|0|0|0|0|1|1|2|1|2|1|0|0|1|0|0|0|0|3|0|1|3|3|1|5|2|2|0|0|2|1|0|3|0|0|3|1|0|0|0|2|1|0|1|1|0|1|1|1|1|2|5|2|1|3|2|2|1|0|1|1|2|3|1|1|0|0|1|2|2|4|2|4|1|1|4|0|2|2|1|5|0|1|1|0|0|2|4|2|3|3|3|1|5|2|3|1|0|1|3|0|2|3|0|1|6|3|2|1|0|1|1|2|4|1|3|1|2|0|1|3|2|1|0|0|2|3|1|1|1|0|1|1|2|1|2|2|1|1|1|1|1|4|2|1|1|1|1|1|0|1|0|1|2|0|2|1|2|1|1|1|0|1|1|0|1|0|1|0|2|1|0|0|2|0|1|1|0|0|0|3|0|0|0|0|1|0|2|0|0|1|0|2|1|0|0|0|0|0|0|2|0|0|0|0|1|0|0|0|2|0|0|0|0|0|0|1|1|1|1|1|0|0|1|0|0|1|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|1|1|1|3|0|1|2|1|2|2|2|2|2|2|1|1|2|0|1|2|3|0|5|1|2|2|2|5|6|3|2|2|1|0|0|2|0|0|0|0|1|1|0|0|1|1|0|0|1|1|0|1|0|1|0|1|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|1|2|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|2|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">364.29553222656</MDI>
+          <MDI key="STATISTICS_MAXIMUM">424.39190673828</MDI>
+          <MDI key="STATISTICS_MEAN">385.09626726214</MDI>
+          <MDI key="STATISTICS_STDDEV">13.454486382626</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>
